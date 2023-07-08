@@ -26,3 +26,32 @@ boy 的感觉是一个孩子, 你在指挥一个小孩帮你完成一些琐碎�
 # 扩展
   比如python可以建立一个文件服务器, 那boy也集成这个功能进来.后续会集成更多功能
   
+# 运行图
+```
+    __
+   / /_  ____  __  __
+  / __ \/ __ \/ / / /
+ / /_/ / /_/ / /_/ /
+/_.___/\____/\__, /
+            /____/
+可以很容易的创建一个工程, 集成一些常用的包, 欢迎提出建设意见
+
+Usage:
+  boy [command]
+
+Available Commands:
+  completion  Generate the autocompletion script for the specified shell
+  db          添加数据库
+  file        当前目录开一个文件上传下载服务
+  help        Help about any command
+  init        初始化工程文件
+  make        编译当前目录的工程
+  run         A brief description of your command
+
+Flags:
+  -h, --help     help for boy
+  -t, --toggle   Help message for toggle
+
+Use "boy [command] --help" for more information about a command.
+
+```
